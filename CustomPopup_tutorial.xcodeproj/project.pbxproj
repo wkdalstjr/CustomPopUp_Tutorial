@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0833224273CBF37009F74FA /* PopUpDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0833223273CBF37009F74FA /* PopUpDelegate.swift */; };
 		D0EEF25B273BA05E00D69C2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EEF25A273BA05E00D69C2A /* AppDelegate.swift */; };
 		D0EEF25D273BA05E00D69C2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EEF25C273BA05E00D69C2A /* SceneDelegate.swift */; };
 		D0EEF25F273BA05E00D69C2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EEF25E273BA05E00D69C2A /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D0833223273CBF37009F74FA /* PopUpDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpDelegate.swift; sourceTree = "<group>"; };
 		D0EEF257273BA05E00D69C2A /* CustomPopup_tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomPopup_tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0EEF25A273BA05E00D69C2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0EEF25C273BA05E00D69C2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				D0EEF268273BA05F00D69C2A /* Info.plist */,
 				D0EEF26E273BA0E200D69C2A /* PopUp.storyboard */,
 				D0FC264F273BA8B800AD1F05 /* CustomPopUpViewController.swift */,
+				D0833223273CBF37009F74FA /* PopUpDelegate.swift */,
 			);
 			path = CustomPopup_tutorial;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0833224273CBF37009F74FA /* PopUpDelegate.swift in Sources */,
 				D0FC2650273BA8B800AD1F05 /* CustomPopUpViewController.swift in Sources */,
 				D0EEF25F273BA05E00D69C2A /* ViewController.swift in Sources */,
 				D0EEF25B273BA05E00D69C2A /* AppDelegate.swift in Sources */,
