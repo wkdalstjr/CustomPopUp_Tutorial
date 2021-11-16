@@ -48,10 +48,24 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="2ZV-E6-39j">
-                                        <rect key="frame" x="65" y="295" width="120" height="70"/>
+                                        <rect key="frame" x="65" y="255" width="120" height="110"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6bZ-qU-eit">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r9n-oq-h6W">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="30"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="120" id="NrS-Q1-rPo"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <state key="normal" title="Git 바로가기">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="onGitBtnClicked:" destination="9rh-Ls-4rq" eventType="touchUpInside" id="sFn-wz-TDN"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6bZ-qU-eit">
+                                                <rect key="frame" x="0.0" y="40" width="120" height="30"/>
                                                 <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="120" id="CvK-gR-H7T"/>
@@ -65,7 +79,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H4Z-6K-9UG">
-                                                <rect key="frame" x="0.0" y="40" width="120" height="30"/>
+                                                <rect key="frame" x="0.0" y="80" width="120" height="30"/>
                                                 <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="120" id="TT6-9e-NQS"/>
@@ -110,6 +124,7 @@
                     <connections>
                         <outlet property="bgBtn" destination="If6-oT-ezK" id="aQh-nN-7zM"/>
                         <outlet property="contentView" destination="ncS-oK-i1k" id="lJM-4A-o8Z"/>
+                        <outlet property="gitBtn" destination="r9n-oq-h6W" id="Asm-5V-BgJ"/>
                         <outlet property="openChatBtn" destination="6bZ-qU-eit" id="vUT-dx-EcD"/>
                         <outlet property="subscribeBtn" destination="H4Z-6K-9UG" id="pUK-Ck-wZM"/>
                     </connections>
